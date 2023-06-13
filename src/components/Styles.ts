@@ -11,13 +11,20 @@ interface IStack {
   bg?: string;
   bgImage?: string;
   
+  /**padding */ 
   p?: string;
+  /*padding horizontal*/
   px?: string;
+  /*padding vertical*/
   py?: string;
 
+  /*padding top*/
   pt?: string;
+  /*padding right*/
   pr?: string;
+  /**padding bottom*/
   pb?: string;
+  /*padding left*/
   pl?: string;
   
   m?: string;
